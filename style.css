@@ -178,6 +178,33 @@ body{
        font-style: italic;
    }
 
+   /* Match Gallery Section style start from here */
+
+   .studium img{
+
+    width:300px;
+    height: 200px;
+   }
+
+   .studium{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+    grid-gap: 27px;
+    margin-bottom: 150px;
+
+   }
+   #match-gallery{
+    display: grid;
+    justify-content: center;
+   }
+   #match-gallery h1{
+       text-align: center;
+       font-size: 2em;
+       color: teal;
+
+   }
+
  /* <!-- Footer Section Start From Here --> */
    footer{
     margin-bottom: 0px;
@@ -187,8 +214,8 @@ body{
     text-align: center;
 
 
-   }
 
+   }
 
 
 
@@ -281,6 +308,10 @@ body{
     width: 138px;
     font-size: xx-small;;
 }
+.studium img {
+    width: 151px;
+    height: 136px;
+}
 }
 
 
@@ -372,6 +403,9 @@ body{
     width: 138px;
     font-size: xx-small;;
 }
-
+.studium img {
+    width: 120px;
+    height: 120px;
+}
 
 }
