@@ -1,0 +1,377 @@
+body{
+
+    margin: 0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* Header Section style */
+.first{
+    display: flex;
+    background-color:royalblue;
+    align-items: center;
+    justify-content: space-around;
+    height:100vh;
+    margin-bottom:60px;
+
+
+}
+
+
+.copa{
+
+
+    font-size: xx-large;
+    margin-top: 5%;
+    color: snow;
+}
+.copa img{
+    width: 500px;
+}
+
+.banner:hover{
+    transform: rotate(360deg);
+
+}
+.banner{
+    transition: transform 2s;
+}
+
+
+/*!! Main Section Starts From Here!! */
+
+
+/* Player Description By grid style start from here  */
+
+ #grid-elements {
+      display: grid;
+      justify-content: center;
+
+
+
+
+  }
+
+
+.players-list{
+     display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+    grid-gap: 27px;
+    margin-bottom: 150px;
+
+
+
+
+
+}
+
+ .player{
+
+    Width :330px;
+    height: 474px;
+
+
+    /* display: block; */
+
+
+    border: 30px ;
+    box-shadow: 5px 5px 11px gray;
+
+}
+.player img,p{
+    width:300px;
+    height:256px;
+
+   display:block;
+   margin-top:4%;
+   margin-left: auto;
+   margin-right:auto ;
+
+
+
+
+}
+ .player h2{
+     margin-left: 4%;
+}
+/* Copa America Description style start from here */
+.copa-america {
+
+ display: flex;
+ margin-bottom: 120px;
+ margin-bottom: 120px;
+
+}
+
+.copa-america header{
+
+  font-size: 3.5em;
+  font-weight: 700;
+  color: rgb(0, 0, 44);
+
+
+
+ }
+
+ .copa-america article{
+
+    width: 413px;
+
+
+
+   }
+
+   .copa-america img{
+
+    width: 413px;
+    margin-left: 30px;
+    margin-top: 70px;;
+
+
+
+   }
+   .half-width{
+
+
+
+    width: 50%;
+
+
+   }
+   .button-style{
+
+    background-color: #E02C6D;
+    margin-top: 15px;
+    width:172px;
+    height: 44px;
+    border: none;
+    color: white;
+
+
+   }
+   /* Font Icon Style */
+   .fa-long-arrow-alt-right{
+
+    color: white;
+   }
+   .fa-futbol{
+
+    font-size: 5em;
+    color: brown
+
+   }
+   /* <!-- Football Logo Section Style start from here --> */
+
+   .football-banner{
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 40px;
+
+   }
+   #text-style{
+       font-size: 5em;
+       color: chartreuse;
+       font-style: italic;
+   }
+
+ /* <!-- Footer Section Start From Here --> */
+   footer{
+    margin-bottom: 0px;
+}
+   .center{
+
+    text-align: center;
+
+
+   }
+
+
+
+
+   /* responsive section */
+
+
+/* Medium devices ( tablets ) */
+@media only screen and (max-width:960px) and (min-width: 668px)   {
+
+
+
+    .players-list{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+
+        grid-gap: 27px;
+        margin-bottom: 150px;
+        font-size: smaller;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+    .copa img {
+        width: 220px;
+    }
+    .copa{
+
+
+        font-size: 10px;
+        margin-top: 5%;
+        color: snow;
+    }
+
+    .button-style{
+
+        background-color: #E02C6D;
+        margin-top: 15px;
+        width: 74px;
+        height: 19px;
+        border: none;
+        color: white;
+        font-size: 8px;
+
+       }
+
+       .player img,p{
+        width:200px;
+        height:180px;
+
+       display:block;
+       margin-top:4%;
+       margin-left: auto;
+       margin-right:auto ;
+       font-size: small;
+
+    }
+
+
+
+    .player{
+
+        Width :230px;
+        height: 350px;
+
+
+
+
+        border: 30px ;
+        box-shadow: 5px 5px 11px gray;
+
+    }
+
+    .player h2{
+        margin-left: 7%;
+        font-size: small;
+   }
+   .copa-america img {
+    width: 230px;
+    margin-left: 30px;
+    margin-top:18px;
+}
+.copa-america header {
+    font-size: 1.0em;
+    font-weight: 700;
+    color: rgb(0, 0, 44);
+}
+.copa-america article {
+    width: 138px;
+    font-size: xx-small;;
+}
+}
+
+
+/* Small devices ( mobile ) */
+@media only screen and (max-width: 668px)   {
+
+
+
+
+    .players-list{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+
+        grid-gap: 27px;
+        margin-bottom: 150px;
+        font-size: smaller;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+    .copa img {
+        width: 220px;
+    }
+    .copa{
+
+
+        font-size: 10px;
+        margin-top: 5%;
+        color: snow;
+    }
+
+    .button-style{
+
+        background-color: #E02C6D;
+        margin-top: 15px;
+        width: 74px;
+        height: 19px;
+        border: none;
+        color: white;
+        font-size: 8px;
+
+       }
+
+       .player img,p{
+        width:200px;
+        height:180px;
+
+       display:block;
+       margin-top:4%;
+       margin-left: auto;
+       margin-right:auto ;
+       font-size: small;
+
+    }
+
+
+
+    .player{
+
+        Width :230px;
+        height: 350px;
+
+
+        /* display: block; */
+
+
+        border: 30px ;
+        box-shadow: 5px 5px 11px gray;
+
+    }
+
+    .player h2{
+        margin-left: 7%;
+        font-size: small;
+   }
+   .copa-america img {
+    width: 230px;
+    margin-left: 30px;
+    margin-top:18px;
+}
+.copa-america header {
+    font-size: 1.0em;
+    font-weight: 700;
+    color: rgb(0, 0, 44);
+}
+.copa-america article {
+    width: 138px;
+    font-size: xx-small;;
+}
+
+
+}
